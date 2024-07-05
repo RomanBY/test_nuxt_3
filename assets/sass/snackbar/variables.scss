@@ -1,0 +1,47 @@
+$color-tint: 10 !default;
+$color-tint-grey: 6.66 !default;
+
+$color-tint-darker: $color-tint * 2 !default;
+$color-tint-dark: $color-tint !default;
+$color-tint-light: $color-tint !default;
+$color-tint-lighter: $color-tint * 2 !default;
+$color-tint-lightest: $color-tint * 3 !default;
+
+$color-tint-grey-darker: $color-tint-grey * 4 !default;
+$color-tint-grey-dark: $color-tint-grey * 2 !default;
+$color-tint-grey-light: $color-tint-grey !default;
+$color-tint-grey-lighter: $color-tint-grey * 2 !default;
+$color-tint-grey-lightest: $color-tint-grey * 3 !default;
+
+$color-black: #000 !default;
+$color-grey: lighten($color-black, $color-tint-grey * 10) !default; //#aaa
+$color-white: #fff !default;
+$color-beige: #f2f2ea !default;
+$color-red: #cc4e3d !default;
+$color-pink: #e55ccf !default;
+$color-purple: #a73abf !default;
+$color-blue: #3674b2 !default;
+$color-green: #36b274 !default;
+$color-gray: #6c757d !default;
+$color-cyan: #36b2b2 !default;
+$color-yellow: #e5ab45 !default;
+$color-orange: #d97c42 !default;
+$color-brown: #b26336 !default;
+$color-chartreuse: #c6d601 !default;
+
+$color-background: rgba(255, 255, 255, 0.85) !default;
+$color-brand: #7994af !default;
+$color-info: $color-blue !default;
+$color-warning: $color-yellow !default;
+$color-success: $color-green !default;
+$color-error: $color-red !default;
+$color-simple: $color-gray !default;
+
+$color-warning-light: lighten($color-warning, $color-tint-light) !default;
+$color-info-light: lighten($color-info, $color-tint-light) !default;
+$color-simple-light: lighten($color-gray, $color-tint-light) !default;
+$color-error-light: lighten($color-error, $color-tint-light) !default;
+$color-success-light: rgba($color-success, 0.4) !default;
+
+$icon-size: 0.5;
+$size: 1em;
